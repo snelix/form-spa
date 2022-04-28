@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/form-spa/static/css/main.3a1abdc4.css",
+    "main.js": "/form-spa/static/js/main.f3f8b288.js",
+    "index.html": "/form-spa/index.html",
+    "main.3a1abdc4.css.map": "/form-spa/static/css/main.3a1abdc4.css.map",
+    "main.f3f8b288.js.map": "/form-spa/static/js/main.f3f8b288.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a1abdc4.css",
+    "static/js/main.f3f8b288.js"
+  ]
+}
