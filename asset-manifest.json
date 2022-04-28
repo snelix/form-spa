@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/form-spa/static/css/main.3a1abdc4.css",
-    "main.js": "/form-spa/static/js/main.f3f8b288.js",
+    "main.js": "/form-spa/static/js/main.2e9b8e15.js",
     "index.html": "/form-spa/index.html",
     "main.3a1abdc4.css.map": "/form-spa/static/css/main.3a1abdc4.css.map",
-    "main.f3f8b288.js.map": "/form-spa/static/js/main.f3f8b288.js.map"
+    "main.2e9b8e15.js.map": "/form-spa/static/js/main.2e9b8e15.js.map"
   },
   "entrypoints": [
     "static/css/main.3a1abdc4.css",
-    "static/js/main.f3f8b288.js"
+    "static/js/main.2e9b8e15.js"
   ]
 }
