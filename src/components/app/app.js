@@ -143,7 +143,6 @@ class App extends Component {
 
   render() {
     const {edit, universityData, citiesData, dirtyPass, dirtyPassR, dirtyEmail, formErrors, formValid } = this.state;
-    if (this.state.universityData.length !== 0) {
       return (
         <div className="app">
           <Status edit={edit} changeStatus={this.changeStatus}/>
@@ -161,8 +160,6 @@ class App extends Component {
           />
         </div>
       );
-    }
-    
   }
 }
 
