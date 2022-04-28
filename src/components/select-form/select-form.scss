@@ -1,0 +1,84 @@
+.select-form {
+    margin-bottom: 39px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    &__wrapper {
+        width: 336px;
+        height: 31px;
+        overflow: hidden;
+        border: 1px solid #999999;
+        position: relative;
+        &::after {
+            content: '';
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-bottom: 2px solid #037BB8;
+            border-left: 2px solid #037BB8;
+            top: 6px;
+            right: 10px;
+            transform: rotate(-45deg);
+        }
+    }
+    label {
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 19px;
+        color: #000000;
+        width: 188px;
+        margin-right: 36px;
+        display: inline-block;
+    }
+    select {
+        border: 0;
+        width: 356px;
+        height: 31px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        padding: 6px 30px 6px 12px;
+        background: none;
+    }
+}
+
+@media screen and (max-width: 1007px) {
+    .select-form {
+        padding: 0;
+        label {
+            font-size: 19px;
+            line-height: 19px;
+            margin-right: 20px;
+            width: 175px;
+        }
+        &__wrapper {
+            width: 300px;
+            select {
+                width: 320px;
+                option {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .select-form {
+        flex-wrap: wrap;
+        label {
+            font-size: 15px;
+            line-height: 15px;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        &__wrapper {
+            select {
+                option {
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+}
