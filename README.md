@@ -1,3 +1,6 @@
+# Ссылка на готовый проект: 
+https://snelix.github.io/form-spa
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
